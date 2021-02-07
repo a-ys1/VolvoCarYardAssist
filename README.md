@@ -1,6 +1,4 @@
 # VolvoCarYardAssist
-Android Studio application designed for car yards. See README-file for a more detailed descripton.
-
 
 School project where a tablet application for Volvo was created. The purpose of the application is to reduce the workload for the operators at car yards. It can display different cars on a map across the car yard and calculate the shortest possible path that an operator must travel when moving the cars. A manager can add tasks to the operators within the application, telling them where a car is supposed to be placed within the car yard. Other features on the application is to set a card yard area, register vehicles and search tasks.
 
