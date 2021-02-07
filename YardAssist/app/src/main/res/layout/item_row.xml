@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/titleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:text="Vehicle ID:"
+        android:textColor="#5F70CF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleID"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Vehicle ID"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/titlePosted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vID"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Posted: "
+        android:textColor="#5F70CF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timePosted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vID"
+        android:layout_toRightOf="@id/titlePosted"
+        android:text="time"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/titleComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@id/vID"
+        android:text="Comment:"
+        android:textColor="#5F70CF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleComment"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@id/vID"
+        android:text="Comment"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+</LinearLayout>

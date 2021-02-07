@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "566505297753",
+    "firebase_url": "https://yardassist-b2f4d.firebaseio.com",
+    "project_id": "yardassist-b2f4d",
+    "storage_bucket": "yardassist-b2f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566505297753:android:b579c062549a06fc791e48",
+        "android_client_info": {
+          "package_name": "com.example.yardassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566505297753-sofm1phr4263hf6h42kfsjimbdq11q94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXTiSJKfRxipGYbGLV6vWgyaCRncirekM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566505297753-sofm1phr4263hf6h42kfsjimbdq11q94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

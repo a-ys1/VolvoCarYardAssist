@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">YardAssist</string>
+    <string name="app_title">Yard Assist</string>
+    <string name="volvo_logo">volvo_logo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">login</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="id2">ID2</string>
+    <string name="id3">ID3</string>
+    <string name="user_type">Usertype</string>
+    <string name="operator">Operator</string>
+    <string name="manager">Manager</string>
+    <string name="admin">Admin</string>
+    <string name="test">testknapp</string>
+    <string name="create_account">Create Account</string>
+    <string name="your_area_is">Your area is:</string>
+    <string name="move_first_to_the_top_left_corner_of_the_yard_when_there_press_the_button_then_to_the_bottom_right_corner_and_press_the_button_again">Move first to the top left corner of the yard, when there press the button. Then to the bottom right corner and press the button again.</string>
+    <string name="set_area_of_yard">Set Area of Yard</string>
+    <string name="title_activity_testactivity">testactivity</string>
+    <string name="tab_text_1">Task List</string>
+    <string name="tab_text_2">Register Vehicle</string>
+    <string name="tab_text_3">Map</string>
+    <string name="tab_text_4">Set Area</string>
+    <string name="title_activity_yard_manager">yard_manager</string>
+    <string name="title_activity_new_manager">NewManager</string>
+    <string name="title_activity_new_operator">NewOperator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

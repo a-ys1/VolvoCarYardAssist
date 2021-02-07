@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.yardassist">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:remove="android:maxSdkVersion" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YardAssist">
+        <activity
+            android:name=".activities.NewOperator"
+            android:label="@string/title_activity_new_operator"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+        <activity
+            android:name=".activities.NewManager"
+            android:label="@string/title_activity_new_manager"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".activities.MapActivity" />
+        <activity android:name=".activities.SetAreaActivity" />
+        <activity android:name=".activities.CreateAccount" />
+        <activity android:name=".activities.OperatorActivity" />
+        <activity
+            android:name=".activities.NewTaskActivity"
+            android:label="Register task"
+            android:parentActivityName=".activities.NewManager"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.yardassist.activities.NewManager" />
+            />
+        </activity>
+        <activity android:name=".activities.ManagerActivity" />
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

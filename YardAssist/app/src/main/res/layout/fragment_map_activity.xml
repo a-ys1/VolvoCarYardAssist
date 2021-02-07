@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MapActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:id="@+id/parentRelative">
+
+        <com.example.yardassist.classes.CustomMap
+            android:id="@+id/customView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-500dp"
+            android:layout_marginLeft="-500dp"
+            android:layout_marginRight="-500dp"
+            android:layout_marginTop="-500dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
